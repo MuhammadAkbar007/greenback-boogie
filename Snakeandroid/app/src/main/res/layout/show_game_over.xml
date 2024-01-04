@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:paddingTop="100dp"
+    android:paddingBottom="100dp">
+
+    <TextView
+        android:id="@+id/title_game_over"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/gmae_over"
+        android:textColor="@color/yellow"
+        android:textSize="60dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Score: 0"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        android:layout_margin="50dp"/>
+
+    <Button
+        android:id="@+id/main_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Main Menu"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:padding="17dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

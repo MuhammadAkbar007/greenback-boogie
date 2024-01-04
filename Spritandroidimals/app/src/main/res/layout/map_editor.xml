@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:weightSum="1">
+
+    <TextView
+            android:text="@string/map_editor"
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:id="@+id/MapEditor"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:layout_weight="0.07"/>
+
+    <Switch
+            android:text="@string/default_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/swtDefault"
+            android:textAlignment="center"
+            />
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.07"
+            tools:ignore="InefficientWeight,UselessParent">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:id="@+id/barb"
+                    android:layout_weight="0.07"/>
+
+            <Button
+                    android:text="@string/barb_wire"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnBarb"
+                    android:layout_weight="0.07"
+                    android:onClick="onClickBarb"/>
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:id="@+id/log"
+                    android:layout_weight="0.07"/>
+
+            <Button
+                    android:text="@string/log"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnLog"
+                    android:layout_weight="0.07"
+                    android:onClick="onClickLog"/>
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:id="@+id/pit"
+                    android:layout_weight="0.07"/>
+
+            <Button
+                    android:text="@string/pit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnPit"
+                    android:layout_weight="0.07"
+                    android:onClick="onClickPit"/>
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:id="@+id/plessy"
+                    android:layout_weight="0.07"/>
+
+            <Button
+                    android:text="@string/plessy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnPlessy"
+                    android:layout_weight="0.07"
+                    android:onClick="onClickPlessy"/>
+
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:id="@+id/trap"
+                    android:layout_weight="0.07"/>
+
+            <Button
+                    android:text="@string/trap"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/btnTrap"
+                    android:layout_weight="0.07"
+                    android:onClick="onClickTrap"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

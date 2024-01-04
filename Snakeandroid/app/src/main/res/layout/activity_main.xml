@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="74dp"
+        android:text="Classic Snake"
+        android:textColor="@color/black"
+        android:fontFamily="monospace"
+        android:textSize="35dp"
+        android:layout_marginBottom="30dp"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/play"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play"
+        android:fontFamily="monospace"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:onClick="startGame"
+        android:background="@drawable/rounded_button"
+        android:textColor="@color/white"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/sound"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sound: on"
+        android:fontFamily="monospace"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:background="@drawable/rounded_button"
+        android:textColor="@color/white"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/level"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Level: Easy"
+        android:fontFamily="monospace"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:background="@drawable/rounded_button"
+        android:textColor="@color/white"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/howtoplay"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="How to play"
+        android:fontFamily="monospace"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:background="@drawable/rounded_button"
+        android:textColor="@color/white"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/about"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About"
+        android:fontFamily="monospace"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:background="@drawable/rounded_button"
+        android:textColor="@color/white"
+        android:layout_marginRight="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginBottom="20dp" />
+
+</LinearLayout>

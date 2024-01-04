@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="#000000">
+
+    <ImageView
+        android:id="@+id/GameOverImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.23"
+        app:srcCompat="@drawable/gameover" />
+
+    <TextView
+        android:id="@+id/GameOverText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Twój wynik to:"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textColor="#FFFFFF"
+        android:layout_weight="0.15" />
+
+    <TextView
+        android:id="@+id/GameOverPoints"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.28"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/GameOverText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Podaj imię:"
+        android:textSize="30dp"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:layout_weight="0.22" />
+
+    <EditText
+        android:id="@+id/GameOverEnterName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.13"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=" "
+        android:textColor="#FFFFFF"
+        android:textSize="30dp"
+        android:textAlignment="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:paddingTop="120dp">
+
+        <Button
+            android:id="@+id/GameOverRepeatButton"
+            android:layout_width="190dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:text="Powtórz"
+            android:background="#303030"
+            android:layout_margin="2dp"
+            android:textColor="#ffffff"
+            android:textAllCaps="false"
+            android:textSize="20dp"/>
+
+        <Button
+            android:id="@+id/GameOverMenuButton"
+            android:layout_width="190dp"
+            android:layout_height="60dp"
+            android:text="Menu"
+            android:layout_weight="1"
+            android:background="#303030"
+            android:layout_margin="2dp"
+            android:textColor="#ffffff"
+            android:textAllCaps="false"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Snake-android</string>
+    <string name="about_description">A simple Snake game, similar to the one we used to play when we were kids.</string>
+    <string name="how_to_play">Swipe LEFT, RIGHT, UP or DOWN to steer the snake.</string>
+    <string name="developer_info">This game has been developed by Anuj Sain. To report or send feedback, email him - mailanujsain@yahoo.com</string>
+    <string name="gmae_over">Game Over!</string>
+</resources>

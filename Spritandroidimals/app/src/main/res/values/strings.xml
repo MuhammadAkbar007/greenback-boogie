@@ -1,0 +1,28 @@
+<resources>
+
+    <string name="app_name">Animation</string>
+    <string name="start_game">Start game</string>
+    <string name="sSettings">Settings</string>
+    <string name="sAbout">About</string>
+    <string name="sHighScores">High Scores</string>
+    <string name="sExit">Exit</string>
+    <string name="sName">Name</string>
+    <string name="sCompletionTime">Completion Time</string>
+    <string name="sMusicToggle">"Music Toggle "</string>
+    <string name="sSoundToggle">"Sound Toggle "</string>
+    <string name="game_title">Spritandroidimals</string>
+    <string name="map_editor">Map Editor</string>
+    <string name="barb_wire">Barb Wire</string>
+    <string name="log">Log</string>
+    <string name="pit">Pit</string>
+    <string name="plessy">Plessy</string>
+    <string name="trap">Trap</string>
+    <string name="map_editor_menu">Map Editor</string>
+    <string name="default_map">Use Custom Map</string>
+    <string name="barb_wire_swt">Barb Wire</string>
+    <string name="log_swh">Log</string>
+    <string name="pit_swtch">Pit</string>
+    <string name="plessy_swtch">Plessy</string>
+    <string name="trap_swtch">Trap</string>
+
+</resources>
